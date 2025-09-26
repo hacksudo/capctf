@@ -26,6 +26,7 @@
 ```bash```
 # Pull the latest image from Docker Hub
 docker pull hacksudo/capctf:latest
+```bash```
 
 # Run the container (maps port 8080)
 docker run --rm -it -p 8080:80 hacksudo/capctf:latest
