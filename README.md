@@ -29,7 +29,7 @@
 
 ```bash
 # Pull the latest CAPCTF image from Docker Hub
-docker pull <your-dockerhub-username>/capctf:latest
+docker pull hacksudo/capctf:latest
 
-# Run the container (maps port 8081)
-docker run --rm -it -p 8081:80 <your-dockerhub-username>/capctf:latest
+# Run the container (maps port 8080)
+docker run --rm -it -p 8080:80 hacksudo/capctf:latest
