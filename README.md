@@ -27,7 +27,7 @@
 # Pull the latest image from Docker Hub
 docker pull hacksudo/capctf:latest
 
-# Run the container (maps port 8081)
+# Run the container (maps port 8080)
 docker run --rm -it -p 8080:80 hacksudo/capctf:latest
 # Clone the repository
 git clone https://github.com/hacksudo/CAPCTF.git
