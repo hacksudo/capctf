@@ -36,13 +36,3 @@ docker run --rm -it -p 8080:80 hacksudo/capctf:latest
 ```
 
 The lab will be accessible at http://localhost:8081/login.php
-
-CAPCTF/
-├─ Dockerfile           # Docker image build instructions
-├─ entrypoint.sh        # Container startup script
-├─ nginx.conf           # Nginx configuration
-├─ init_db.php          # SQLite database initialization
-├─ login.php            # Vulnerable login page
-├─ dashboard.php        # Post-login admin dashboard
-├─ ip_block.json        # Tracks IP login attempts
-└─ README.md            # This documentation
