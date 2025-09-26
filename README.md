@@ -35,4 +35,5 @@ docker pull hacksudo/capctf:latest
 docker run --rm -it -p 8080:80 hacksudo/capctf:latest
 ```
 
-The lab will be accessible at http://localhost:8081/login.php
+The lab will be accessible at http://localhost:8080/login.php
+The lab will be accessible at http://localhost/login.php
